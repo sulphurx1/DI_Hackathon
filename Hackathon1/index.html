@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Page</title>
-    <link rel="stylesheet" href="./style/landing.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- <div class="box">
-        <button class="button"></button>
-        <button class="button"></button>
-        <button class="button"></button>
-        <button class="button"></button>
-    </div> -->
-    
+<body class="hero hero1">
+    <script src="https://kit.fontawesome.com/b76af39939.js" crossorigin="anonymous"></script>
+    <div class="quiz_box">
+        <header>
+            <div class="title"> F1 Quiz</div>
+            <div class="timer"></div>
+                <div class="time_text">
+                    <div class="timer_text">Time Left</div>
+                    <div class="timer_sec">20</div>
+                </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="question_text">
+            </div>
+            
+            <div class="option_list">
+            </div>
+            
+        </section>
+        <footer>
+            <div class="total_question">
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="icon">
+            <i class="fa-sharp fa-solid fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay</button>
+            <button class="quit" href="landing.html">Quit</button>
+        </div>
+
+    </div>
+    <script src="./javascript/main.js"></script>
 </body>
 </html>
