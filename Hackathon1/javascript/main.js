@@ -126,32 +126,8 @@ let questionCount = 0;
     startTimerLine(0);
     nextButton.style.display = 'none';
 
-// when game is start
-// buttonGame.onclick = () => {
-//     let questionCount = 0;
-//     let questionNumber = 1;
-//     let counter;
-//     let timeInterval = 20;
-//     let score = 0;
-//     let width = 0;
-
-//     showQuestions(0);
-//     counterQuestion(1);
-//     startTimer(20);
-//     startTimerLine(0);
-//     nextButton.style.display = 'none';
-// }
-
-// on press restart button
 restartGame.onclick = () => {
-    quizBox.classList.remove('disactivateQuiz');
-    resultBox.classList.remove('activateResult');
-    let questionCount = 0;
-    let questionNumber = 1;
-    let counter;
-    let timeInterval = 20;
-    let score = 0;
-    let width = 0;
+    window.location.reload();
 
     showQuestions(questionCount);
     counterQuestion(questionNumber);
